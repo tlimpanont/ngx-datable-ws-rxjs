@@ -27,4 +27,5 @@ this.ws.onMessage$
 
 ```
 
+<br />
 <img src="https://raw.githubusercontent.com/tlimpanont/ngx-datable-ws-rxjs/master/demo.gif" alt="demo animation">
