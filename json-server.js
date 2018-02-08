@@ -38,7 +38,7 @@ wss.on('connection', (ws) => {
   setInterval(() => {
     console.log("ADD USER");
     addUser(ws)
-  }, 2000)
+  }, 1500)
 });
 
 // Set default middlewares (logger, static, cors and no-cache)

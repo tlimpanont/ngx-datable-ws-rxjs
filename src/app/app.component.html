@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col-md-12">
       <ngx-datatable
@@ -7,7 +7,9 @@
         [columns]="columns"
         [columnMode]="'force'"
         [headerHeight]="50"
-        [footerHeight]="50">
+        [footerHeight]="50"
+        [rowHeight]="'auto'"
+        [limit]="10">
       </ngx-datatable>
     </div>
   </div>

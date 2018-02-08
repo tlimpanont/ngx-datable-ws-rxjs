@@ -40,13 +40,4 @@ export class AppComponent implements OnInit {
       });
   }
 
-  getRowHeight(row) {
-    if (!row) {
-      return 200
-    }
-    if (row.height === undefined) {
-      return 200
-    } return row.height;
-  }
-
 }

@@ -7,7 +7,7 @@
     "nodemon": "nodemon",
     "ng-start": "ng serve --proxy-config proxy.conf.json",
     "start": "npm run start:server",
-    "start:server": "concurrently --kill-others 'npm run ng-start' 'nodemon --delay 2500ms json-server.js' ",
+    "start:server": "concurrently --kill-others 'npm run ng-start' 'nodemon --delay 2500ms json-server.js --ignore db.json' ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
